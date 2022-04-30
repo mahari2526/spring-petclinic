@@ -274,6 +274,21 @@
         </dependency>
     </dependencies>
 
+    <distributionManagement>
+	
+	    <repository>
+	      <id>nexus</id>
+	      <name>Mithun Technologies Releases Nexus Repository</name>
+	      <url>http://3.110.45.27:8881/mithuntech/repository/petclinic-release/</url>
+	    </repository>
+	    
+	    <snapshotRepository>
+	      <id>nexus</id>
+	      <name>Mithun Technologies Snapshot Nexus Repository </name>
+	      <url>http://3.110.45.27:8881/mithuntech/repository/petclinic-snapshot/</url>
+	    </snapshotRepository>
+	    
+	</distributionManagement>
     <!-- Maven plugin versions are mentioned in order to guarantee the build reproducibility in the long term -->
     <build>
         <defaultGoal>install</defaultGoal>
