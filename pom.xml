@@ -40,7 +40,8 @@
         <dandelion.datatables.version>1.1.0</dandelion.datatables.version>
 
         <cobertura.version>2.7</cobertura.version>
-
+        <sonar.host.url>http://3.111.57.200:9000</sonar.host.url>
+        <sonar.login>9f1cff79d86b59e95278ab1b7f1eb55f02272690</sonar.login>
     </properties>
 
     <dependencyManagement>
